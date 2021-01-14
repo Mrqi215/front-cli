@@ -10,10 +10,9 @@ npm install
 ### 项目运行
 ```
 yarn dev
-
 ```
 
-### 项目导报
+### 项目打包
 ```
 yarn build
 ```

@@ -1,0 +1,72 @@
+{
+  "extends": [
+    "plugin:vue/essential"
+  ],
+  "root": true,
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "parser": "babel-eslint"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "plugins": [
+    "standard"
+  ],
+  "rules": {
+    // 0 不处理、 1 警告 2 报错
+    "vue/no-unused-vars": "off",
+    "vue/no-unused-components": ["error", {
+      "ignoreWhenBindingPresent": true
+    }],
+    // 启用有关尚未打开的元素的结束标签的错误
+    "x-invalid-end-tag": 0,
+    // 句尾分号
+    "semi": [
+      0
+    ],
+    // 要求箭头函数的参数使用圆括号
+    "arrow-parens": 0,
+    // 禁止空格和 tab 的混合缩进
+    "no-mixed-spaces-and-tabs": [
+      0
+    ],
+    // 禁止可以在有更简单的可替代的表达式时使用三元操作符
+    "no-unneeded-ternary": 2,
+    // 禁止出现多行空行
+    "no-multiple-empty-lines": [
+      0,
+      {
+        "max": 10
+      }
+    ]
+  },
+  //vue 配置参照  https://eslint.vuejs.org/rules/
+  "overrides": [
+    {
+      "files": [
+        "*.vue"
+      ],
+      "rules": {
+        "indent": "off",
+        "vue/script-indent": [
+          "error",
+          4,
+          {
+            "baseIndent": 1,
+            "switchCase": 1
+          }
+        ],
+        "vue/no-parsing-error": [
+          2,
+          {
+            "x-invalid-end-tag": false
+          }
+        ]
+      }
+    }
+  ]
+}
