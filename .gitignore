@@ -1,0 +1,16 @@
+.idea
+npm-debug.log
+node_modules
+.project
+cache
+/src/router/getRouterList.js
+.vscode
+.history
+.DS_Store
+\.settings/
+dist/
+*.iml
+workspace.xml
+package-lock.json
+jsconfig.json
+/.run/
