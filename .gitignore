@@ -2,6 +2,7 @@
 npm-debug.log
 node_modules
 .project
+CHANGELOG.md
 cache
 /src/router/getRouterList.js
 .vscode

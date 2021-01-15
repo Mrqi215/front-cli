@@ -14,6 +14,12 @@
  main | 修改README.md | [748f589](https://github.com/Mrqi215/front-cli/commit/748f589)
 
 
+### 🔙 撤销
+范围|描述|commitId
+--|--|--
+ - | 撤销上一次提交 | [61f038a](https://github.com/Mrqi215/front-cli/commit/61f038a)
+
+
 ### 🚀 性能优化
 范围|描述|commitId
 --|--|--
