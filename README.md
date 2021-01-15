@@ -25,3 +25,7 @@ yarn d secondProject
 yarn b 项目
 ```
 
+### 提交规范
+```
+yarn cz
+```

@@ -15,6 +15,7 @@
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "eslint-plugin-standard": "^5.0.0",
+    "qs": "^6.9.6",
     "right-pad": "^1.0.1",
     "vue": "^2.6.11"
   },

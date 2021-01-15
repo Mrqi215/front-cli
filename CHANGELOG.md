@@ -6,6 +6,12 @@
  提交规范 | 代码提交规范 | [cbdad31](https://github.com/Mrqi215/front-cli/commit/cbdad31)
 
 
+### 🚀 性能优化
+范围|描述|commitId
+--|--|--
+ main | 项目多入口 | [7f6df6a](https://github.com/Mrqi215/front-cli/commit/7f6df6a)
+
+
 ### chore
 范围|描述|commitId
 --|--|--
