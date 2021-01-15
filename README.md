@@ -1,23 +1,27 @@
 # vue-admin-front-cli
 
-## 项目启动
+## 🌟项目依赖初始化
 ```
-yarn install
-cnpm install
-npm install
+yarn
 ```
 
-### 项目运行
+### 🌟项目运行
+- 第一个项目
 ```
-yarn dev
-```
-
-### 项目打包
-```
-yarn build
+npm run d firstProject
+cnpm run d firstProject
+yarn d firstProject
 ```
 
-### Lints and fixes files
+- 第二个项目
 ```
-yarn lint
+npm run d secondProject
+cnpm run d secondProject
+yarn d secondProject
 ```
+
+### 🌟项目打包
+```
+yarn b 项目
+```
+

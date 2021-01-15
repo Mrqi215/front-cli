@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const config = require('./config/projectConfig');
 const ServerConfig = require('./server-config')
 const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
 require('events').EventEmitter.prototype._maxListeners = 100;
@@ -16,6 +17,7 @@ const resolve = dir => {
 // 配置详解：https://cli.vuejs.org/zh/confiåg/#lintonsave
 module.exports = {
     publicPath: BASE_URL,
+    pages: config.pages,
     //基于node 的 os module去判断操作系统里的CPU是否支持并行构建，以提高构建速度。
     parallel: require('os').cpus().length > 1,
     lintOnSave: process.env.NODE_ENV === 'production' ? false : 'error',
