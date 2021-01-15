@@ -7,6 +7,12 @@
  提交规范 | 代码提交规范 | [cbdad31](https://github.com/Mrqi215/front-cli/commit/cbdad31)
 
 
+### 🎨 代码样式
+范围|描述|commitId
+--|--|--
+ main | 不提交CHANGELOG.md | [832217a](https://github.com/Mrqi215/front-cli/commit/832217a)
+
+
 ### 📝 文档
 范围|描述|commitId
 --|--|--
