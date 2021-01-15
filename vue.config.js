@@ -6,9 +6,7 @@ const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
 require('events').EventEmitter.prototype._maxListeners = 100;
 //服务器的ip和端口
 let serverIpPort = ServerConfig.ip;
-const PROXY_URL = process.env.NODE_ENV === 'development' ?
-    `http://${serverIpPort}` :
-    '/';
+const PROXY_URL = process.env.NODE_ENV === 'development' ? `http://${serverIpPort}` : '/';
 // 第二个空字符串是生产环境的地址
 const BASE_URL = process.env.NODE_ENV === 'development' ? '/' : './';
 const resolve = dir => {
@@ -50,10 +48,7 @@ module.exports = {
             .set('@', resolve(
                     'src'))
             .set('_c', resolve('src/components'));
-        config.plugin("").use(new webpack.ContextReplacementPlugin(
-            /moment[/\\]locale$/,
-            /zh-cn/,
-        ));
+        config.plugin("").use(new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /zh-cn/,));
     },
     productionSourceMap: false,
     pluginOptions: {
