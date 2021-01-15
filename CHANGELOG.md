@@ -6,6 +6,12 @@
  提交规范 | 代码提交规范 | [cbdad31](https://github.com/Mrqi215/front-cli/commit/cbdad31)
 
 
+### 📝 文档
+范围|描述|commitId
+--|--|--
+ main | 修改README.md | [748f589](https://github.com/Mrqi215/front-cli/commit/748f589)
+
+
 ### 🚀 性能优化
 范围|描述|commitId
 --|--|--

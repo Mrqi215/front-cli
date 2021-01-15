@@ -1,4 +1,4 @@
-# vue-admin-front-cli
+# vue-front-cli
 
 ## 🌟项目依赖初始化
 ```
